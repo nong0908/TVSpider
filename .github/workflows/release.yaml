@@ -57,8 +57,7 @@ jobs:
       - name: Config上传Gitee分支
         uses: ad-m/github-push-action@master
         with:
-          github_token: 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
-
+          github_token: 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
           repository: ${{ secrets.GiteePath }}
           directory: .
           branch: js
